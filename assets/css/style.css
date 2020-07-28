@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+}
+header nav {
+    background: #000;
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+header nav h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+}
+.bg-header{
+    width: 100%;
+    height: calc( 100vh - 75px);
+    overflow: hidden;
+}
+.bg-header img{
+    width: 100%;
+    height: auto;
+}
+section{
+    float: left;
+    height: 350px;
+    background: #000;
+    width: 100%;
+    clear: both;
+}
+.section-p{
+    float: left;
+    width: 50%;
+}
+.section-p p{
+    padding: 2em 4em 0;
+    font-size: 16px;
+}
+.section-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img img{
+    height: 237px;
+    width: auto;
+}
+.features{
+    float: left;
+    background-color: #1e1a13;
+    height: 350px;
+    width: 100%;
+}
+.features h1{
+    padding-top: 1em;
+    text-align: center;
+}
+.container-icons{
+    margin-left: 1em;
+    margin-right: 1em;
+    clear: both;
+}
+.icon{
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    margin-top: 1.5em;
+}
+.container{
+    margin: 0 5em;
+}
+.gallery{
+    float: left;
+    background-color: #000;
+    width: 100%;
+    height: 350px;
+}
+.gallery-img{
+    float: left;
+    width: calc(33% - 10px);
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.gallery-img img{
+    width: 100%;
+    height: 200px;
+}
+footer{
+    background-color: #1e1a13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
+    height: 100px;
+}
